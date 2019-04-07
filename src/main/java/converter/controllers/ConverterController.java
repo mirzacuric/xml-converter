@@ -16,4 +16,9 @@ public class ConverterController {
         String result = service.convertToXml(file);
         return result;
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "Ready to use";
+    }
 }
