@@ -1,7 +1,5 @@
 package converter;
 
-import com.sun.tools.corba.se.idl.toJavaPortable.Helper;
-import helpers.Helpers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
